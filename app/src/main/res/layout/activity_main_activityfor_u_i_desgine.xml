@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="600dp"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/ic_bg_background2"
+
+    android:id="@+id/relativelayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JEE Main"
+        android:textColor="#FA0738"
+        android:textSize="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textview_Jee"/>
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject-WiseTest's"
+        android:textColor="#0552C5"
+        android:textSize="20dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="5dp"
+         android:id="@+id/TvsubjectWiseTest"
+
+        />
+
+    <TextView
+        android:id="@+id/TvSequenceandSeries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:text="Sequence and Series-Guess Model"
+        android:textColor="#FA0738"
+        android:textSize="20dp"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TvSequenceandSeries"
+        android:layout_marginTop="10dp"
+        android:text="10Q/40M/20min"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:id="@+id/TvMarks"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TvMarks"
+        android:layout_marginTop="10dp"
+        android:text="MATHEMATICS"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/TvMathematics"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All India Live Test  -"
+        android:layout_below="@id/TvMathematics"
+        android:gravity="center"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/Tv_AllindialiveTest"
+        android:textColor="#0552C5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Active Now"
+        android:layout_below="@id/TvMathematics"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="#08E463"
+     android:layout_marginStart="230dp"
+        android:id="@+id/TvActive"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Live Resuslts On  -"
+        android:layout_below="@id/TvActive"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+     android:layout_marginStart="70dp"
+        android:textStyle="normal"
+        android:id="@+id/TvResults"
+        />
+    <ImageView
+        android:id="@+id/roundedimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+
+        />
+
+
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+android:layout_below="@id/TvResults"
+     android:src="@drawable/ic_patch_ai_450x300_01"
+     android:layout_marginTop="5dp"
+     android:id="@+id/image1"
+     />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_button_ai_150x70_01"
+    android:layout_alignBottom="@id/image1"
+    android:id="@+id/image2"
+
+
+    />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text= " &lt; Take Test  &gt;"
+    android:textColor="@color/colorWhite"
+    android:gravity="center"
+    android:layout_marginTop="552dp"
+    android:id="@+id/TvTakeTest"
+    android:textSize="20dp"
+     />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Topper (till Now)                         Akarsh"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20dp"
+        android:id="@+id/TvTopper"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No.of Aspirents (till Now)          2"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="485dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20dp"
+        android:id="@+id/Tvno.ofAspirents"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TopScore  (till Now)                    45 "
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="515dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/TvTopscore"
+        android:textSize="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Tvmonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="232dp"
+            android:background="@drawable/monthdesgin"
+            android:text="MAY"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Tvmonth"
+            android:layout_marginStart="220.8dp"
+            android:background="@drawable/datelayoutdesgine"
+            android:text="  26  "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/Tvtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="242dp"
+            android:background="#020B3C"
+            android:drawableStart="@drawable/ic_baseline_access_time_242"
+            android:text="11AM"
+            android:textColor="@color/colorWhite" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="315dp"
+            android:src="@mipmap/ic_image11"
+            app:shapeAppearanceOverlay="@style/Hexagonal"
+
+
+
+            />
+
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

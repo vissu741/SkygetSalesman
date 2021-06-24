@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_file_2_01"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="340dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/imageview1"
+
+        android:src="@drawable/ic_file_1_01"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AskDoubt"
+        android:textColor="@color/colorWhite"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="6dp"
+            android:id="@+id/Tvaskdoubt"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/Tv_viewposteddoubts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="75dp"
+        android:fontFamily="@font/calibri_regular"
+        android:text="View Posted Doubts"
+        android:textColor="@color/colorBlack"
+        android:textSize="22dp"
+        android:textStyle="normal" />
+    <View
+        android:layout_width="180dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="185dp"
+        android:background="#070707"
+        android:layout_below="@id/Tv_viewposteddoubts"/>
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Please select subject: "
+        android:textColor="#F502617E"
+        android:layout_marginStart="30dp"
+        android:id="@+id/Tv_subject"
+        android:layout_marginTop="415dp"
+        android:textSize="28dp"/>
+    <View
+        android:layout_width="338dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="30dp"
+        android:background="#F502617E"
+        android:layout_marginTop="3dp"
+        android:layout_below="@id/Tv_subject"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_file_3_01"
+        android:layout_marginTop="425dp"
+        android:id="@+id/imageview2"
+        android:layout_toRightOf="@id/Tv_subject"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="464dp"
+            android:src="@drawable/ic_file_4_01"
+            android:id="@+id/imageview3"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageviewbutton1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="590dp"
+            android:src="@drawable/ic_file_5___165x41_01"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageviewbutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageviewbutton1"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="17dp"
+            android:src="@drawable/ic_file_6___92x45_01" />
+
+        <TextView
+            android:id="@+id/TvUploadimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="595dp"
+            android:text="Upload Image"
+            android:textColor="@color/colorWhite"
+
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/Tv_typeyourdoubt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="470dp"
+            android:text="Type Your Doubt"
+            android:textColor="#4B000000"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/Tv_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="173dp"
+            android:layout_marginTop="655dp"
+            android:text="Submit"
+            android:textColor="@color/colorWhite"
+
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

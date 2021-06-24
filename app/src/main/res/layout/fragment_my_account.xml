@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="">
+
+        <ProgressBar
+            android:id="@+id/progressBar_doubts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_lay">
+
+           <!-- <ImageView
+                android:id="@+id/imgSpinner_attempted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:src="@drawable/ic_down_arrow" />
+
+            <Spinner
+                android:id="@+id/spinner_ExamType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/imgSpinner_attempted"
+                android:background="@drawable/spinner_border_attempted" />-->
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/month_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_40sdp"
+                android:entries="@array/month_list"
+                android:prompt="@string/spinner_title" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSearch"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@id/month_spinner"
+                android:background="@drawable/button_border_sign"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:imeOptions="actionDone"
+                android:text="Search"
+                android:textColor="@color/colorWhite"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_below="@id/spinner_lay"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_weight=".8"
+                android:fontFamily="@font/calibri_bold"
+                android:gravity="center"
+                android:text="Student\Id" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/calibri_bold"
+                android:gravity="center"
+                android:text="Paid\nAmount" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/calibri_bold"
+                android:gravity="center"
+                android:text="Percentage" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/calibri_bold"
+                android:gravity="center"
+                android:text="Salesman\nAmount"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/calibri_bold"
+                android:gravity="center"
+                android:text="Paid\nStatus" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/linear_lay"
+            android:background="@color/colorBlack" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/salesman_reports_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_lay"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_5sdp" />
+
+        <TextView
+            android:id="@+id/no_text_watch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="No Sales"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+
+    <!--
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ProgressBar
+                android:id="@+id/progressBar_doubts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+    -->
+</layout>

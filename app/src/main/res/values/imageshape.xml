@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Hexagonal">
+        <item name="cornerSizeBottomLeft">55%</item>
+        <item name="cornerSizeBottomRight">55%</item>
+        <item name="cornerSizeTopLeft">18%</item>
+        <item name="cornerSizeTopRight">18%</item>
+
+
+    </style>
+
+
+
+
+</resources>

@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">SkygetSalesman</string>
+
+    <string name="login">Log In</string>
+    <string name="mobile">Enter Mobile Number</string>
+
+    <string name="mobile1">Enter Mobile Number to view the details</string>
+    <string name="enter_pass">Enter Password</string>
+    <string name="app_forgot">Forgot Password?</string>
+
+    <string name="password_error">Please enter password</string>
+    <string name="username_error">Please enter User Name</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="r_symbol"><sup>®</sup></string>
+    <string name="please_choose">Please Choose....</string>
+    <string name="toast_image_intent_null">Image picker option is missing!</string>
+    <string name="lbl_choose_from_gallery">Choose from gallery</string>
+    <string name="lbl_set_profile_photo">Set profile image</string>
+    <string name="lbl_take_camera_picture">Take a picture</string>
+
+    <string name="app_person_name">Name</string>
+    <string name="app_email">E-Mail</string>
+
+    <string name="app_mobile">Mobile</string>
+    <string name="spinner_title">"Select Plan Id"</string>
+    <string name="spinner_month">"Select Month"</string>
+
+    <string name="emoji">&#128522;</string>
+
+    <string-array name="month_list">
+        <item>----Select Month----</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="months_emi_list">
+        <item>Select EMI Months</item>
+        <item>1 Month</item>
+        <item>2 Months</item>
+        <item>3 Months</item>
+        <item>5 Months</item>
+        <item>6 Months</item>
+        <item>9 Months</item>
+        <item>12 Months</item>
+
+    </string-array>
+
+</resources>

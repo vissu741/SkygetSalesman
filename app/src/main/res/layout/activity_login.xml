@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/login_slideup_ani"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ProgressBar
+                android:id="@+id/login_progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_90sdp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_logo_salesman1" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textinputUser"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_20sdp">
+
+                        <EditText
+                            android:id="@+id/editUsername"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_25sdp"
+                            android:layout_marginRight="@dimen/_25sdp"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:drawableLeft="@drawable/ic_profile_icon_new"
+                            android:drawablePadding="10dp"
+                            android:fontFamily="@font/calibri_regular"
+                            android:hint="@string/mobile"
+                            android:inputType="number"
+                            android:textColor="@color/textGrayColor"
+                            android:textSize="14dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textinputPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible"
+                        app:passwordToggleEnabled="true"
+                        android:layout_marginLeft="-8dp"
+                        app:passwordToggleTint="@color/logocolor">
+
+                        <EditText
+                            android:id="@+id/editPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_25sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_marginRight="@dimen/_25sdp"
+                            android:drawableStart="@drawable/ic_key_icon_new"
+                            android:drawablePadding="10dp"
+                            android:fontFamily="@font/calibri_regular"
+                            android:hint="@string/enter_pass"
+                            android:inputType="textPassword"
+                            android:paddingLeft="10dp"
+                            android:textColor="@color/textGrayColor"
+                            android:textSize="14dp"
+                            android:visibility="visible" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/tvForgot"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="@dimen/_50sdp"
+                        android:fontFamily="@font/calibri_regular"
+                        android:layout_gravity="center_vertical"
+                        android:drawablePadding="@dimen/_5sdp"
+                        android:drawableStart="@drawable/ic_forgot_icon"
+                        android:text="@string/app_forgot"
+                        android:textAlignment="gravity"
+                        android:textSize="@dimen/_13sdp"
+                        android:visibility="gone" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnLogin"
+                        android:layout_width="@dimen/_130sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/button_border_sign"
+                        android:text="Login"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <!--  <androidx.appcompat.widget.AppCompatButton
+                          android:layout_width="@dimen/_130sdp"
+                          android:layout_height="match_parent"
+                          android:layout_alignParentBottom="true"
+                          android:layout_gravity="center"
+                          android:layout_marginTop="@dimen/_10sdp"
+                          android:background="@drawable/button_border_sign"
+                          android:text="Login"
+                          android:textColor="@color/colorWhite"
+                          android:textSize="16dp"
+                          android:textStyle="bold" />-->
+
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/fab_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="bottom|right"
+                        android:layout_margin="@dimen/fab_margin"
+                        android:visibility="gone" />
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+            <ProgressBar
+                android:id="@+id/progressBar_doubts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</layout>

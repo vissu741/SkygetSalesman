@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_5sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:padding="@dimen/_5sdp"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    app:cardElevation="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:background="@color/colorWhite"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_10sdp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="1.9">
+
+                            <TextView
+                                android:id="@+id/test_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                android:layout_weight="1.9"
+                                android:ellipsize="end"
+                                android:fontFamily="@font/calibri_bold"
+                                android:maxLines="1"
+                                android:text="Skyget"
+                                android:textSize="@dimen/_13sdp" />
+                            <!-- android:id="@+id/tbnCancel"
+                             android:layout_width="@dimen/_25sdp"
+                             android:layout_height="@dimen/_25sdp"
+                             android:background="@drawable/ic_baseline_highlight_off_24px"
+                             android:layout_marginTop="@dimen/_5sdp"
+                             android:layout_alignParentRight="true"
+                             android:layout_marginRight="@dimen/_5sdp"-->
+                            <Button
+                                android:id="@+id/tbnCancel_missed"
+                                android:layout_width="@dimen/_25sdp"
+                                android:layout_height="@dimen/_25sdp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:background="@drawable/ic_baseline_highlight_off_24px" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_1sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@color/colorPrimaryDark" />
+
+                        <CheckBox
+                            android:id="@+id/not_interested"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/calibri_regular"
+                            android:text="Not interested"
+                            android:textSize="@dimen/_16sdp" />
+
+                        <CheckBox
+                            android:id="@+id/take_other_subscription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/calibri_regular"
+                            android:text="Taken other Subscription"
+                            android:textSize="@dimen/_16sdp" />
+
+                        <CheckBox
+                            android:id="@+id/interest_in_skyget"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/calibri_regular"
+                            android:text="Interested in Skyget"
+                            android:textSize="@dimen/_16sdp" />
+
+                        <CheckBox
+                            android:id="@+id/product_explained"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/calibri_regular"
+                            android:text="Product explained"
+                            android:textSize="@dimen/_16sdp" />
+
+                        <CheckBox
+                            android:id="@+id/called_not_lifted"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/calibri_regular"
+                            android:text="Called many times but\n not lifted"
+                            android:textSize="@dimen/_16sdp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnLogin"
+                            android:layout_width="@dimen/_130sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:background="@drawable/button_border_sign"
+                            android:text="Submit"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/ic_roboimage01"
+    android:id="@+id/background1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+    android:text="Rank Guarantee Practice"
+    android:textColor="@color/white"
+    android:layout_marginStart="60dp"
+    android:layout_marginTop="50dp"
+      android:id="@+id/TvRankGuarantee"
+    android:textSize="28dp"/>
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+    android:text="Robot Driven"
+    android:textColor="#FFFB00"
+    android:layout_marginStart="125dp"
+        android:id="@+id/TvRobotDriven"
+
+    android:textSize="30dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+      <ImageView
+          android:layout_width="140dp"
+          android:layout_height="match_parent"
+        android:src="@drawable/ic_robopic2"
+        android:layout_marginStart="133dp"
+          android:layout_marginTop="10dp"
+          android:id="@+id/RoboImage"
+
+        />
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:text="I will train you to get expertise in less time"
+      android:textColor="@color/colorWhite"
+        android:lines="1"
+        android:maxLines="1"
+        android:layout_marginStart="30dp"
+
+        android:textSize="18dp"
+        android:layout_marginTop="140dp"
+        android:textStyle="bold"
+        android:id="@+id/TvLesstime"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:text="Powered by Artificial Intelligence "
+      android:textColor="@color/colorWhite"
+        android:lines="1"
+        android:maxLines="1"
+        android:textSize="20dp"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="163dp"
+        android:id="@+id/TvPoweredby"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+<TextView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:text="Physics"
+    android:gravity="center_horizontal"
+    android:layout_marginStart="50dp"
+    android:textSize="20dp"
+    android:textColor="@color/colorWhite"
+    android:background="@drawable/box1"
+    android:layout_marginTop="10dp"
+    android:id="@+id/Tvphysics"/>
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="60dp">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@mipmap/ic_physicsicon"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="14dp"
+                android:id="@+id/physicsimage" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="170dp"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="chemistry"
+            android:gravity="center_horizontal"
+            android:layout_marginStart="160dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/box2"
+            android:layout_marginTop="10dp"
+            android:id="@+id/Tvchemistry"/>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="60dp"/>
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/ic_channelchemistry"
+            android:layout_marginTop="39dp"
+            android:layout_marginStart="180dp"
+            android:id="@+id/chemistryimage" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Biology"
+                android:gravity="center_horizontal"
+                android:layout_marginStart="272dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/box3"
+                android:layout_marginTop="10dp"
+                android:id="@+id/Tvbiolagy"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="280dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@mipmap/ic_channelbiology"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="19dp"
+                android:id="@+id/biolagyimage" />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+  </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/constraint_lay"
+        android:background="#F2FBED21">
+
+
+        <!--android:background="@mipmap/ic_splash_rank"-->
+
+        <ImageView
+            android:id="@+id/main_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_splash_screen_new_splash"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- <TextView
+             android:id="@+id/version"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="@dimen/_5sdp"
+             android:gravity="end"
+             android:text="Version 1.4"
+             android:textAppearance="@style/TextAppearance.AppCompat.Small"
+             android:textColor="@color/colorWhite"
+             android:textStyle="bold"
+             android:visibility="gone" />
+
+         <com.google.android.material.floatingactionbutton.FloatingActionButton
+             android:id="@+id/fab"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentBottom="true"
+             android:layout_gravity="bottom|right"
+             android:layout_margin="@dimen/fab_margin"
+             android:visibility="gone" />-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#F2FBED21"
+        tools:context=".views.activities.SplashGifActivity">
+
+
+        <ImageView
+            android:id="@+id/main_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ic_splash_screen_salesman"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:gravity="end"
+            android:text="Version 1.4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="@dimen/fab_margin"
+            android:visibility="gone" />
+    </RelativeLayout>
+</layout>-->

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<androidx.cardview.widget.CardView android:layout_height="@dimen/_50sdp"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_15sdp"
+    app:cardElevation="1dp"
+   app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="false"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+    android:orientation="horizontal"
+    android:layout_weight="5">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:id="@+id/text12"
+        android:layout_marginStart="@dimen/_10sdp"
+       android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="65dp"
+            android:text="videous"
+            android:textColor="@color/purple_200"
+            android:textStyle="bold"
+            android:id="@+id/videoTXT"/>
+
+
+
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_toRightOf="@id/text12"
+        android:id="@+id/view"
+        android:text="View"
+        android:background="@drawable/buttonshape"
+        android:layout_marginStart="130dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_toRightOf="@id/view"
+        android:id="@+id/feedback"
+        android:text="FEEDBACK"
+        android:background="@drawable/buttonshape"
+        android:layout_marginStart="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColor="@color/white"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="click"
+    android:layout_toRightOf="@id/feedback"
+    android:layout_marginStart="@dimen/_17sdp"
+    android:layout_marginTop="@dimen/_15sdp"
+    android:textColor="@color/purple_200"
+    android:id="@+id/clicktext"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+</layout>

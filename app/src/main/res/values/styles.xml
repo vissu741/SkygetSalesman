@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/new_color</item>
+        <item name="colorPrimaryDark">@color/new_color</item>
+        <item name="colorAccent">@color/new_color</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <!--<item name="colorControlNormal">@color/colorWhite</item>-->
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+   <!-- <style name="ThemeSpinner"> &lt;!&ndash; Color when pressed &ndash;&gt;
+        <item name="colorAccent">@color/colorAccent</item>
+        &lt;!&ndash; Default color for the dropdown arrow and line &ndash;&gt;
+        <item name="colorControlNormal">@color/infoToolColor</item>
+        <item name="android:textColor">@color/infoToolColor</item>
+    </style>-->
+
+    <!-- Praveen add-->
+   <!-- <style name="MyProgressBarTwo" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="colorButtonNormal">#f50057</item>
+        <item name="colorControlActivated">#33691e</item>
+        <item name="colorControlHighlight">#ff6d00</item>
+        <item name="android:progressDrawable">@drawable/custom_progressbar_horizontal</item>
+        <item name="android:minWidth">200dp</item>
+    </style>-->
+
+
+   <!-- <style name="CheckboxStyle" parent="AppTheme">
+        <item name="colorAccent">@color/colorAccent</item>
+        // for checked
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+        // for unchecked
+    </style>-->
+
+   <!-- <style name="RadioButtonStyle" parent="AppTheme">
+        <item name="buttonTint">@color/grayColor_2</item>
+        // for checked
+        <item name="android:textColorSecondary">@color/grayColor_2</item>
+        // for unchecked
+    </style>-->
+
+
+    /////////////////////
+
+    //////////////////////////////Login
+
+    <style name="TextLabel">
+
+
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">#FFFFFF</item>
+    </style>
+
+    <style name="CustomButtonTheme" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#b2dfdb</item>
+        <item name="colorButtonNormal">#009688</item>
+    </style>
+
+    <style name="SlidingDialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+</resources>

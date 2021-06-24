@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="textGrayColor">#666666</color>
+    <color name="logocolor">#6A2498</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="backgroundtheme">#ECF0F5</color>
+    <color name="colorPrimaryDark">#6731C1</color>
+    <color name="colorAccent">#6731C1</color>
+
+    <color name="active_status_bg">#78A2FC</color>
+
+    <color name="card_Bg_Option_Color">#F8F8F8</color>
+    <color name="correctColor">#00BA85</color>
+    <color name="grayColor_2">#898989</color>
+
+    <color name="colorOrange">#FF6600</color>
+    <color name="new_splash_status_color">#311149</color>
+    <color name="infoToolColor">#AD7DFF</color>
+
+    <color name="colorPrimary">#F85959</color>
+    <color name="daily_dose_Active">#81BC00</color>
+    <color name="new_color">#F71</color>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:id="@+id/Cardtext1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:text="Thermodynamics"
+                android:textColor="#5EC507"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/Cardtext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="60dp"
+                android:text="Basic Knowledge"
+                android:textColor="#2668D6"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Cardtext3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="130dp"
+                android:text="NEET"
+                android:textColor="#5EC507"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/Cardtext4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="60dp"
+                android:text="Fundamental Skills"
+                android:textColor="#C50707" />
+
+            <TextView
+                android:id="@+id/Cardtext5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="160dp"
+
+                android:text="No.of Tests in LiveZone :"
+                android:textColor="@color/black" />
+
+
+
+        </androidx.cardview.widget.CardView>
+       <!-- <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recyclerviewIntractive"/>-->
+
+    </RelativeLayout>
+
+
+</layout>

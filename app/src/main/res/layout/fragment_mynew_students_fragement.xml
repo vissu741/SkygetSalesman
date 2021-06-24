@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".views.fragments.YesterDayVideosFragment">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".views.fragments.YesterDayVideosFragment">
+
+
+            <LinearLayout
+                android:id="@+id/linear_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <TextView
+                    android:id="@+id/student_id"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.5"
+                    android:fontFamily="@font/calibri_bold"
+                    android:gravity="center"
+                    android:text="StudentId" />
+
+                <TextView
+                    android:id="@+id/sub_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.5"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/calibri_bold"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="Student Name" />
+
+                <TextView
+                    android:id="@+id/contacted_take"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/calibri_bold"
+                    android:gravity="center"
+                    android:text="view"
+                    />
+
+                <TextView
+                    android:id="@+id/i_will_take"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/calibri_bold"
+                    android:gravity="center"
+                    android:text="FeedBack"
+                    android:layout_marginStart="@dimen/_20sdp"/>
+                <TextView
+                    android:id="@+id/fup"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_weight="0.4"
+                    android:fontFamily="@font/calibri_bold"
+                    android:gravity="center"
+                    android:text="followup"
+                    android:layout_marginStart="@dimen/_10sdp"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/linear_lay"
+                android:background="@color/colorBlack" />
+
+        </RelativeLayout>
+        <ProgressBar
+            android:id="@+id/progressBar_newstudents1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/no_studentslist_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="No list to watch"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/Mynew_studentslist_recyclerview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+           />
+
+    </RelativeLayout>
+
+</layout>
+

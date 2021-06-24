@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <gradient
+        android:endColor="@color/daily_dose_Active"
+        android:startColor="@color/daily_dose_Active" />
+
+    <!-- SHADOW -->
+
+    <corners android:radius="75dp" />
+    <stroke
+        android:width="2px"
+        android:color="@color/colorWhite" />
+</shape>
