@@ -58,7 +58,7 @@ public class IntractivepracticeAdapter extends RecyclerView.Adapter<Intractivepr
     @Override
     public int getItemCount() {
 
-        return /*chapterwise_list_responses == null ? 0 :*/ chapterwise_list_responses.size();
+        return chapterwise_list_responses == null ? 0 :chapterwise_list_responses.size();
     }
 
 

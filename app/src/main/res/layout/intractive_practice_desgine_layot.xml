@@ -1,38 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
         <androidx.cardview.widget.CardView
-            android:layout_width="350dp"
+            android:layout_width="match_parent"
             android:layout_height="190dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
             app:cardCornerRadius="25dp">
 
             <TextView
                 android:id="@+id/Cardtext1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="60dp"
+                android:layout_marginStart="40dp"
                 android:layout_marginTop="20dp"
                 android:text="Thermodynamics"
-                android:textColor="#5EC507"
+                android:textColor="#5DB314"
                 android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/Cardtext2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="60dp"
+                android:fontFamily="sans-serif-black"
                 android:text="Basic Knowledge"
-                android:textColor="#2668D6"
+                android:textColor="#2C969F"
+
+                android:textSize="16dp"
                 android:textStyle="bold" />
+            <TextView
+                android:id="@+id/Cardtextbox0"
+                android:layout_width="140dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="90dp"
+                android:text="               "
+                android:textColor="#2C969F"
+                android:background="@drawable/boxes"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Cardtextbox"
+                android:layout_width="130dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="90dp"
+                android:text="               "
+                android:textColor="#2C969F"
+                android:background="@drawable/boxes"
+                android:textStyle="bold" />
+
 
             <TextView
                 android:id="@+id/Cardtext3"
@@ -48,9 +69,10 @@
                 android:id="@+id/Cardtext4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="160dp"
+                android:layout_marginStart="170dp"
                 android:layout_marginTop="60dp"
                 android:text="Fundamental Skills"
+                android:textSize="16dp"
                 android:textColor="#C50707" />
 
             <TextView
@@ -63,6 +85,26 @@
                 android:text="No.of Tests in LiveZone :"
                 android:textColor="@color/black" />
 
+            <TextView
+                android:id="@+id/Cardtext6"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="155dp"
+                android:textSize="20dp"
+                android:text="1"
+                android:textColor="#BE1ADF24" />
+            <TextView
+                android:id="@+id/Cardtext7"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="276dp"
+                android:layout_marginTop="147.5dp"
+                android:textSize="40dp"
+                android:text="-"
+                android:textColor="#BE1ADF24" />
+
+
 
 
         </androidx.cardview.widget.CardView>
@@ -71,7 +113,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/recyclerviewIntractive"/>-->
 
-    </RelativeLayout>
+
 
 
 </layout>
